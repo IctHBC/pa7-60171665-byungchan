@@ -1,12 +1,12 @@
-/* ÀÌ¸§:ÇÑº´Âù
- * ÇĞ¹ø:60171665
- * ÇÁ·Î±×·¥ ¼³¸í: abstract classÀÎ  Shape Å¬·¡½º¸¦ ÀÌ¿ëÇÏ¿© DrawableÀ» ±¸ÇöÇÏ¸ç ShapeÀÇ ÇÏÀ§ Å¬·¡½ºÀÎ Rectangle,Circle¿¡ Shape¸¦ »ó¼Ó½ÃÄÑ¼­  
- * Rectangle,CircleÀÇ ÁÂÇ¥,³ĞÀÌ,±æÀÌ¸¦ °è»êÇÏ°í Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥ÀÌ´Ù. 
+/* ì´ë¦„:í•œë³‘ì°¬
+ * í•™ë²ˆ:60171665
+ * í”„ë¡œê·¸ë¨ ì„¤ëª…: abstract classì¸  Shape í´ë˜ìŠ¤ë¥¼ ì´ìš©í•˜ì—¬ Drawableì„ êµ¬í˜„í•˜ë©° Shapeì˜ í•˜ìœ„ í´ë˜ìŠ¤ì¸ Rectangle,Circleì— Shapeë¥¼ ìƒì†ì‹œì¼œì„œ  
+ * Rectangle,Circleì˜ ì¢Œí‘œ,ë„“ì´,ê¸¸ì´ë¥¼ ê³„ì‚°í•˜ê³  ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨ì´ë‹¤. 
  */
 public interface Drawable{
 	void draw();
 }
-abstract class Shape {
+abstract class Shape{
 	abstract void area(); 
 	abstract void length();
 	
@@ -14,6 +14,8 @@ abstract class Shape {
 		area();
 		length();
 		System.out.println();
+	}
+	public void draw(){
 	}
 	public String showRectangle1() {
 		return null;
